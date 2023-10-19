@@ -83,11 +83,11 @@ return `<div class="bag-item-container">
 </div>
 <div class="item-right-part">
   <div class="company">${item.company_name}</div>
-  <div class="item-name">${item.name}</div>
+  <div class="item-name">${item.item_name}</div>
   <div class="price-container">
     <span class="current-price">${item.current_price}</span>
     <span class="original-price">${item.original_price}</span>
-    <span class="discount-percentage">(${item.discount_price}% OFF)</span>
+    <span class="discount-percentage">(${item.discount_percentage}% OFF)</span>
   </div>
   <div class="return-period">
     <span class="return-period-days">${item.return_period} days</span> return available
